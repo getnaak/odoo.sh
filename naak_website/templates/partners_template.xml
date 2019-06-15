@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="naak_partner_page_spt" model="ir.ui.view">
+            <field name="name">Naak Partner</field>
+            <field name="type">qweb</field>
+            <field name="key">naak_website.naak_partner_spt</field>
+            <field name="arch" type="xml">
+                <t name="Naak Partner" priority="29" t-name="naak_website.naak_partner_spt">
+                    <t t-call="website.layout">
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt256 pb256" data-scroll-background-ratio="1" style="background-image: none;">
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/naak_website/static/img/2.png&quot;); background-position: 50% 50%;"/>
+                                <div class="container image-left">
+                                    <img src="/naak_website/static/img/logo.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                </div>
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_text pb0 pt0" data-name="Text">
+                                            <p class="lead" style="text-align: center;">The naakEnterprice Network Partnership</p>
+                                        </div>
+                                        <div class="col-lg-12 s_title pt0" data-name="Title">
+                                            <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                                                <font style="font-size: 36px;">
+                                                    <b>POWERFULL TOOLS FOR THE FUTURE OF ENERGY</b>
+                                                </font>
+                                            </h1>
+
+                                            <div class="text-center" style="margin-top:10%">
+                                                <a class="js-scroll-trigger" href="#section_spt">
+                                                    <img src="/naak_website/static/img/15.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section_spt" class="s_text_image pt0 pb0">
+                                <div class="container container_spt">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-4 offset-lg-1 pt16 pb0">
+                                            <div class="pt0 pb32">
+                                                <h2 style="color:#EF5182;">POWERFULL TOOLS FOR THE FUTURE OF ENERGY</h2>
+                                                <p>Identify the problems and challenges facing network partners</p>
+                                                <p>Changes are coming to the way we produce and sell energy. Complicated and ever-changing regulations and technology are already upon us. Today there is an new energy economy emerging, one that is digital, distributed and connected to the internet of energy. How energy is valued has also shifted. What matters now is not how much energy you produce but when you produce it. Does it serve and transact with the grid or does it tax the grid? This new method of valuation has disrupted the ecosystem in which solar once thrived...How do we adapt?</p>
+                                                <p>Those of you forward-thinking enough to see this coming will know that an intelligent energy management system with the ability to optimize for the disruptive changes happening in energy will glide through the turbulence without a scratch.</p>
+                                                <div class="s_btn pt16 pb16 text-center" data-name="Buttons">
+                                                    <a href="#" class="btn btn-beta btn-lg btn-beta-pink">Learn more</a>
+                                                </div>
+                                            </div>
+                                            <div class="pt32 pb32">
+                                                <h2 style="color:#EF5182;">CREDIBILITY ICONS</h2>
+                                                <p>Certifications:</p>
+                                                <p>UL&amp;nbsp; - Zigbee Alliance - RevenueGrade (pending), CALSSA, SEPA, GTM research,&amp;nbsp;</p>
+                                            </div>
+                                            <div class="pt32 pb0">
+                                                <h2 style="color:#EF5182;">ADAPTING TO THE CHANGES</h2>
+                                                <p>Twist the knife of the problem and make it hurt. Why they will struggle if they don’t adapt.</p>
+                                                <p>Adapting to the changes are the only way to remain competitive.</p>
+                                                <p>Remember Nokia? Remember Xerox? Remember Blockbuster?</p>
+                                                <p>These brands used to dominate their respective industries. They were the gold standard by which all others were judged. And changing technology took them down and now they have no real relevance today. And now that same wind of change is coming to energy. Regulations are changing. Technology is evolving. Cost structures are shifting. Business models are dying.&amp;nbsp;</p>
+                                                <p>The old solutions are just not going to satisfy the needs and demands of the market. You must adapt and implement new solutions to these new challenges.</p>
+                                                <p>naak's energy cloud provides the platform for you to do just that. Here’s 3 of the many challenges you can beat with naak:</p>
+                                                <p>Challenge #1: Differentiating your brand is ever more challenging when all solar companies are saying the same things and using the same software design tools. </p>
+                                                <p>Solution: Change the conversation and educate your customer on the changes impacting them and how you are uniquely qualified to help them by giving them control of their energy future.&amp;nbsp;</p>
+                                                <p>Challenge #2: Closing a sale because you are the cheapest, is a race to the bottom strategy.</p>
+                                                <p>Solution: Educate them on the value of being connected to the Internet of Energy, home automation and the ability to control their energy all while being more prepared and reliliant in the event of an emergency.&amp;nbsp;</p>
+                                                <p>Challenge #3: The average customer acquisition cost is over $2000. And if all goes well post install, they’ll never call you back.. Truck rolls quick eat away at your profitability and poor Yelp reviews can do even more damage.&amp;nbsp;&amp;nbsp;</p>
+                                                <p>Solution: It’s simple, Increase your Customer Lifetime Value. With naak, your customer remains engaged, through their App where they will control their appliances, the web dashboard and bi-monthly newsletters. Set up simple alerts in your Fleet Dashboard and sell preemptive maintenance and monitoring. Leverage naak’s data analytics to tell you when your customer is ripe for a battery, Smart Home accessories and grid services like Virtual Power Plant and Demand Response programs.&amp;nbsp;</p>
+                                                <p>If you did just half of the above, just think of all the referrals you can expect.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 offset-lg-1 pt0 pb0 col_spt">
+                                            <img src="/naak_website/static/img/1.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;height: fit-content;"/>
+                                            <img src="/naak_website/static/img/6.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;height: fit-content;"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_block pt0 oe_img_bg oe_custom_bg pb104" style="background-image: url(&quot;/naak_website/static/img/5.png&quot;);">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-11 offset-lg-1 s_title pb0 pt16" style="text-align: left;">
+                                            <h1 class="s_title_small_caps" style="color:#EF5182;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;18 REASONS&amp;nbsp;</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="pt32 pb32 col-lg-3 offset-lg-1">
+                                            <ul>
+                                                <li>
+                                                    <span>Plug every system you design and build into the Internet of Energy</span>
+                                                </li>
+                                                <li>
+                                                    <span>Build fleets of assets that can be centrally controlled and monitored - DR and VPP ready</span>
+                                                </li>
+                                                <li>
+                                                    <span>Stop handing over your customers to inverter companies offering free monitoring</span>
+                                                </li>
+                                                <li>
+                                                    <span>Dual comms - Reliable 4G cellular connectivity &amp;amp; WiFi&amp;nbsp;</span>
+                                                </li>
+                                                <li>
+                                                    <span>Simple to install and can be remotely commissioned and configured</span>
+                                                </li>
+                                                <li>
+                                                    <span>Expanded service offerings - home automation, energy management, battery control, resiligency, performance guarantees, 24/7 monitoring, O&amp;amp;M</span>
+                                                </li>
+                                                <li>
+                                                    <span>Increased customer retention through engagement - naak App, web dashboard, blogs, notifications, energy report cards, set energy budgets, appliance control</span>
+                                                </li>
+                                                <li>
+                                                    <span>Reduced customer acquisition costs - happy customers give referrals and positive reviews</span>
+                                                </li>
+                                                <li>
+                                                    <span>Leverage naak’s data analytics - create data driven upsell opportunities&amp;nbsp;</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="pt32 pb32 col-lg-3 offset-lg-1">
+                                            <ul>
+                                                <li>
+                                                    <span>All the data you need to size and sell storage - solar production, consumption &amp;amp; solar export&amp;nbsp;</span>
+                                                </li>
+                                                <li>
+                                                    <span>Hardware agnostic - great for retrofits, not beholden to any inverter or manufacturer</span>
+                                                </li>
+                                                <li>
+                                                    <span>Fleet View Dashboard with monitoring &amp;amp; centralized control capability&amp;nbsp;</span>
+                                                </li>
+                                                <li>
+                                                    <span>Customizable alerts and notifications – facilitates O&amp;amp;M, supports preemptive maintenance</span>
+                                                </li>
+                                                <li>
+                                                    <span>Sell Home Automation and leverage the Internet of Things (IoT)revolution&amp;nbsp;</span>
+                                                </li>
+                                                <li>
+                                                    <span>Serve Commercial and Residential customers</span>
+                                                </li>
+                                                <li>
+                                                    <span>Reduce Truck Rolls due to unreliable WiFi&amp;nbsp;</span>
+                                                </li>
+                                                <li>
+                                                    <span>Provide more timely and cost effective customer service</span>
+                                                </li>
+                                                <li>
+                                                    <span>Lower the barrier of entry for future customers -&amp;nbsp; sell energy management &amp;amp; home automation</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="pb0 pt32">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title pb0 pt0" style="text-align: center;">
+                                            <h1 class="s_title_small_caps">
+                                                <font style="color:#875BA6;">naak is your partner and guide</font>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_block pt0 pb32">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb0">
+                                            <p>Offer the solution and describe how and why naak is their perfect ally.</p>
+                                            <p>Consider naak your partner in the digital age of energy</p>
+                                            <p>There is no doubt that disruptive forces are changing the rules of the game. Policy, incentives, utility rates and technology are fundamentally changing the value of solar.</p>
+                                            <p>The naak Energy Cloud Platform is a flexible, reliable and cost effective solution allowing you to address the continuously evolving market challenges while positioning your business to capitalize on opportunities as they emerge&amp;nbsp;</p>
+                                            <p>The convergence of powerful technology like battery storage, artificial intelligence, Internet of Things and blockchain are the tools that are enabling the next generation of solar companies to emerge. Those who see it, are positioning themselves to dominate in the new energy economy -&amp;nbsp; the transactive, bidirectional and customer centric marketplace where new business models are emerging every day.&amp;nbsp;</p>
+                                            <p>naak brings all this technology and more to your fingertips. We’re designed from the ground up to help you build your business and keep your customers engaged long term. With the ability to control any energy ecoSystem, naak makes disruption your competitive advantage.&amp;nbsp;&amp;nbsp;</p>
+                                            <p>to give your customers control over their energy future.&amp;nbsp; to install</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_parallax parallax s_parallax_is_fixed bg-black-50 pt80 pb80" data-scroll-background-ratio="1" style="background-image: none;">
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/naak_website/static/img/2.png&quot;); background-position: 47.21% 54%;"/>
+                                <div class="oe_structure">
+                                    <section>
+                                        <div class="container">
+                                            <div class="row s_nb_column_fixed">
+                                                <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                                                    <h1 class="s_title_small_caps" style="text-align: center;">11 ways the naak platform will be your secreat weapon</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </section>
+                            <section class="pb0 pt32">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title pb0 pt0" style="text-align: center;">
+                                            <h1 class="s_title_small_caps">
+                                                <font style="color:#875BA6">founder bio</font>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_block pt0 pb36">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb32">
+                                            <p>Your vision, credibility, and purpose behind naak</p>
+                                            <p>As a solar and energy service provider, you're leading the transition to a decentralized energy marketplace and my mission is to empower you to grow and scale your business.</p>
+                                            <p>My approach is centered around leveraging disruptive technologies and other resources to accelerate the emergence of a customer-centric transactive energy network.</p>
+                                            <p>I’ve managed commercial scale solar finance, construction and development, and intelligent energy management systems integrating IoT and battery storage. I’ve financed and developed over 1,000 solar installations spanning five states, serving Affordable Housing, Multifamily, Municipal, Industrial, Schools and Residential.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="pb0 pt32 bg-100 oe_custom_bg">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title pb0 pt0" style="text-align: center;">
+                                            <h1 class="s_title_small_caps">
+                                                <font style="color:#875BA6">our partnerships</font>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_block pt0 pb0 bg-100 oe_custom_bg">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb32">
+                                            <p>Describe strategic partners and how they lend strength and credibility to the platform</p>
+                                            <p>What are the 3 partnerships that lend the most credibility?</p>
+                                            <p>IndaSpec, Promise Energy, Berkshire Hathaway?, Sunnova?, Mercy Housing,&amp;nbsp;</p>
+                                            <p>1.This stuff works. I’ve invested years in learning the system. Thousands of people have gotten results. You will too.</p>
+                                            <p>That being said, the product comes with a full X-day money-back guarantee. If you’re disappointed for whatever reason, you’ll get every cent back and it’s free for you.</p>
+                                            <p>2.This stuff works. I’ve invested years in learning the system. Thousands of people have gotten results. You will too.</p>
+                                            <p>That being said, the product comes with a full X-day money-back guarantee. If you’re disappointed for whatever reason, you’ll get every cent back and it’s free for you.</p>
+                                            <p>3.This stuff works. I’ve invested years in learning the system. Thousands of people have gotten results. You will too.</p>
+                                            <p>That being said, the product comes with a full X-day money-back guarantee. If you’re disappointed for whatever reason, you’ll get every cent back and it’s free for you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="pb0 pt32">
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title pb0 pt0" style="text-align: center;">
+                                            <h1 class="s_title_small_caps">
+                                                <font style="color:#875BA6">work with naak in 3 steps</font>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_block pt0 pb32">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 offset-lg-1 pt32 pb16">
+                                            <p>Work with naak in three steps</p>
+                                            <p>1. Download our sales packet. It will help you understand how to sell this to your customer as well as all the details to implement it into your business.</p>
+                                            <p>2. After that, order your demo package by scheduling a quick chat to discuss the next steps.</p>
+                                            <p>3. Set up a pilot program and get hands-on experience with a live systems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        
+        <record id="partner_page_spt" model="website.page">
+            <field name="url">/partners</field>
+            <field name="website_published">True</field>
+            <!-- <field name="name">Naak Partner</field> -->
+            <field name="view_id" ref="naak_partner_page_spt" />
+        </record>
+    </data>
+
+</odoo>

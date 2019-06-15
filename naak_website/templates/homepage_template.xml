@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="naak_home" model="ir.ui.view">
+            <field name="name">Home</field>
+            <field name="type">qweb</field>
+            <field name="key">website.homepage</field>
+            <field name="arch" type="xml">
+                <t name="Home" priority="29" t-name="website.homepage">
+                    <t t-call="website.layout">
+                        <t t-set="pageName" t-value="'homepage'" />
+                        <div id="page-top" />
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt256 pb256" data-scroll-background-ratio="1">
+                                <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/naak_website/static/img/7.png'); background-position: 50% 0;"/>
+                                <div class="container image-left">
+                                    <img src="/naak_website/static/img/logo.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                </div>
+                                <div class="container">
+                                    <div class="row s_nb_column_fixed">
+                                        <div class="col-lg-12 s_title" data-name="Title">
+                                            <h5 class="text-center light">Integer mollis sit amet ante vitae auctor</h5>
+                                            <h1 class="s_title_default text-center" style="font-size: 62px;">
+                                                <font class="font_spt">LOREM IPSUM DOLOR SIT AMET</font>
+                                            </h1>
+                                        </div>
+                                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                                            <p class="lead light text-center">Integer mollis sit amet ante vitae auctor. Vivamus vulputate arcu vel consectetur vulputate. Nullam dictum, ante a consectetur ultricies, lorem diam posuere mi, at mattis tortor ligula sit amet mi. Nulla ut velit dolor. Curabitur sed erat a consectetur ultricies, lorem diam posuere mi</p>
+                                        </div>
+                                        <div class="col-lg-12 s_btn pt16 pb16 text-center" data-name="Buttons">
+                                            <a href="/aboutus" class="btn btn-beta btn-lg btn-beta-purple">CHECK IT OUT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_image pt32 pb0">
+                                <div class="container container_spt">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-5 offset-lg-1 pt16 pb0">
+                                            <h2 style="color:#875BA6;text-align: center;text-transform: uppercase;">Control Your Home’s Energy Ecosystem&amp;nbsp;</h2>
+                                            <p>Get network partners acquainted with naak from the perspective of a customer</p>
+                                            <p>Almost everything we do in our homes requires energy. The electricity from the grid or your solar system power your&amp;nbsp; appliances, lighting, climate control, entertainment, and more.&amp;nbsp;</p>
+                                            <p>Yet they all operate independently and with no concern for your wallet or your convenience.&amp;nbsp;</p>
+                                            <p>Not only that, new energy policies change the way you buy your electricity making up to 7 times more expensive to run your dishwasher or cool your home depending on the time of day.&amp;nbsp;</p>
+                                            <p>But you can change all of this. You can make your home intelligent. You can control your homes energy use. You can optimize your solar and battery. You can connect it to the Internet of Energy. You can participate in the new energy economy. You can make your home and the grid more resilient. You can be the master of your home's energy ecosystem.&amp;nbsp;</p>
+                                            <p>You can control your energy future.&amp;nbsp;</p>
+                                            <p>That's the power of naak!</p>
+                                            <div class="s_btn pt16 pb16 text-center" data-name="Buttons">
+                                                <a href="#" class="btn btn-beta btn-lg btn-beta-purple">CHECK IT OUT</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 offset-lg-1 pt16 pb0">
+                                            <img src="/naak_website/static/img/8.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="s_text_image pt0 pb0">
+                                <div class="container container_spt">
+                                    <div class="row align-items-center row_spt">
+                                        <div class="col-lg-6 pb0 pt0 col_spt">
+                                            <img src="/naak_website/static/img/9.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Image and Text" style="width: -webkit-fill-available;height: fit-content;"/>
+                                            <div class="text-block">
+                                                <h2>
+                                                    <font>
+                                                        <span>
+                                                            <b>Your Energy Services - powered by naak</b>
+                                                        </span>
+                                                    </font>
+                                                    <br/>
+                                                </h2>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 offset-lg-1 pb0 pt32">
+                                            <h2 style="color:#875BA6;text-align: center;">
+                                                <font>Explainer Diagram</font>
+                                            </h2>
+                                            <p>
+                                                <font>A visual diagram in place of an explainer video.</font>
+                                            </p>
+                                            <p>
+                                                <font>How it works..</font>
+                                            </p>
+                                            <div class="text-center">
+                                                <img src="/naak_website/static/img/13.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                            </div>
+                                            <h2 style="color:#875BA6;text-align: center;">
+                                                <font>Your Energy Services - powered by naak</font>&amp;nbsp;</h2>
+                                            <p>
+                                                <font>Describe to a network partner what they can offer to their customers by partnering with naak.</font>
+                                            </p>
+                                            <p>
+                                                <b>
+                                                    <font>Introducing eCloud Connect - an energy internet service&amp;nbsp;</font>
+                                                </b>
+                                            </p>
+                                            <p>
+                                                <b>
+                                                    <font>There is a New Internet, and It’s making some solar contractors very rich!</font>
+                                                </b>
+                                            </p>
+                                            <p>
+                                                <font>As a naak network partner, you're not just selling a hi-tech solar system, you're positioning your company and your customers to participate in the new energy economy. A marketplace of new services and business models that will increase your customer lifetime value and grow your business.</font>
+                                            </p>
+                                            <p>
+                                                <font>Solar Headwinds Are Real</font>
+                                            </p>
+                                            <!-- <ul>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Energy policy&amp;nbsp;and technology are changing rapidly, requiring solar companies to evolve or fail</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Customer acquisition&amp;nbsp;is ever more challenging and complex</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Everchanging rate tariffs&amp;nbsp;make it impossible to demonstrate a credible ROI&amp;nbsp;</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Product differentiation&amp;nbsp;opportunities are hard to come by&amp;nbsp;</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Compressed margins&amp;nbsp;from competition are a race to the bottom</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Consumer frustration&amp;nbsp;from lack of visibility and engagement leads to poor reviews</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Costly O&amp;M and customer complaints&amp;nbsp;caused by unreliable Wi-Fi connections</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Aging fleets&amp;nbsp;are in need of retrofits to maximize system performance and maintain connectivity</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <b>
+                                                            <font>Dated, unreliable and non-existent monitoring&amp;nbsp;is a liability and costly to retrofit</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                <b>
+                                                    <font>But headwinds are exactly what you want if you have a sail, a boat and autopilot!</font>
+                                                </b>
+                                            </p>
+                                            <p>
+                                                <font>Explore naak and see for yourself.&amp;nbsp;</font>
+                                            </p>
+                                            <p>
+                                                <font>Your competitors will not be able to offer anything close to what you can.</font>
+                                            </p>
+                                            <p>
+                                                <font>Your customer service abilities will be unparallelled.</font>
+                                            </p>
+                                            <p>
+                                                <font>*more*</font>
+                                            </p>
+                                            <p>
+                                                <font>You will be prepared and ready for the new wave of energy.</font>
+                                            </p> -->
+                                            <div class="s_btn pt16 pb16 text-center" data-name="Buttons">
+                                                <a href="#" class="btn btn-beta btn-lg btn-beta-purple">CHECK IT OUT</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_image pb0 pt0">
+                                <div class="container container_spt">
+                                    <div class="row align-items-center row_spt">
+                                        <div class="col-lg-4 offset-lg-1 pt16 pb16">
+                                            <h2 style="color:#EF5182;text-align: center;">
+                                                <font>naakPartner</font>
+                                            </h2>
+                                            <div class="text-center">
+                                                <img src="/naak_website/static/img/13.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                            </div>
+                                            <p>
+                                                <font>Describe to a network partner how they directly benefit from naak’s platform.</font>
+                                            </p>
+                                            <p>
+                                                <font>Strategies For The Future of Our Industry</font>
+                                            </p>
+                                            <p>
+                                                <font>Reap the benefits of a connected system and gain powerful tools to help you run your business.</font>
+                                            </p>
+                                            <p>
+                                                <font>Naak’s energy internet service, “</font>
+                                                <b>
+                                                    <font>eCloud Connect” is your gateway to offering truly future ready and resilient energy services, allowing you to address your customers' needs while protecting them and your business from market disruption.</font>
+                                                </b>
+                                            </p>
+                                            <!-- <p></p>
+                                            <p>
+                                                <font>Tools like:</font>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        <font>4G cellular comms to transmit data to the cloud in Real Time</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>The ability to capture solar production, consumption AND quantify solar export - Essential to sizing and optimizing energy storage&amp;nbsp;</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Modular “Lego Block” product capability - home automation, battery storage, grid services can be added when it suits the customer&amp;nbsp;</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>A hardware agnostic Smart Hub that integrates with any SunSpec compliant inverter, offering solar and battery storage optimization with naak’s exclusive “</font>
+                                                        <b>
+                                                            <font>energy autopilot”
+                                                   &amp;nbsp;</font>
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Simple to install and commission - remote configuration, dual comms - 4G Cell and Wi-Fi</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Non-invasive and attaches adjacent to the main electrical panel</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Native Fleet View monitoring dashboard ingesting all the data&amp;nbsp;</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Set all the customized alerts you want – allows for Preemptive Maintenance and a reason to ask for well deserved referrals</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Unmatched data security&amp;nbsp;</font>
+                                                    </p>
+                                                </li>
+                                            </ul> -->
+                                            <div class="s_btn pt16 pb16 text-center">
+                                                <a href="#" class="btn btn-beta btn-lg btn-beta-pink">CHECK IT OUT</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 offset-lg-1 pt0 pb0 col_spt">
+                                            <img src="/naak_website/static/img/10.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;height: fit-content;"/>
+                                            <div class="text-block">
+                                                <h2>
+                                                    <span>
+                                                        <b>naakPartner</b>
+                                                    </span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="s_text_image pt0 pb0">
+                                <div class="container container_spt">
+                                    <div class="row align-items-center row_spt">
+                                        <div class="col-lg-6 pt0 pb0 col_spt">
+                                            <img src="/naak_website/static/img/12.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Image and Text" style="width: -webkit-fill-available;height: fit-content;"/>
+                                            <div class="text-block">
+                                                <h2 style="text-align: center; ">
+                                                    <span>
+                                                        <b>naak’s transactive energy network</b>
+                                                    </span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 offset-lg-1 pt16 pb16">
+                                            <h2 style="color:#EF5182;text-align: center;">
+                                                <font>naak’s transactive energy network</font>
+                                            </h2>
+                                            <div class="text-center">
+                                                <img src="/naak_website/static/img/11.png" class="img img-fluid mx-auto" alt="Odoo • Text and Image" style="width: 50%;"/>
+                                            </div>
+                                            <p>
+                                                <font>Describe to a network partner how the marketplace will open up more opportunities.</font>
+                                            </p>
+                                            <p>
+                                                <font>An Ecosystem of Endless Potential</font>
+                                            </p>
+                                            <p>
+                                                <font>Energy solutions can no longer be siloed and disconnected from the marketplace. With electricity rapidly becoming decentralized, bidirectional and customer-centric, energy services must be plugged into the Internet of Energy to participate. Just consider for a moment what the internet did for information… Solar warriors, this is your dot com!</font>
+                                            </p>
+                                            <p>
+                                                <font>naak’s Transactive Energy Network, (aka TEN), is your gateway to securing your position in the emerging new energy economy.&amp;nbsp;</font>
+                                            </p>
+                                            <p>
+                                                <font>The big takeaway here is, we’ve entered the digital age of distributed solar and storage. Whatever you do, stop selling old solar tech! It won’t serve you or your customers for very long.&amp;nbsp;</font>
+                                            </p>
+                                            <p>
+                                                <font>The #1 most important step in closing a new customer is building TRUST. How do you do that?&amp;nbsp; Start by telling them the truth, energy is changing and changing fast.&amp;nbsp;</font>
+                                            </p>
+                                            <!-- <ul>
+                                                <li>
+                                                    <p>
+                                                        <font>Incentives are dropping</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Rate tariffs are shifting&amp;nbsp;</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>The grid is less resilient than it’s ever been</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Weather is changing in dangerous ways</font>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <font>Many solar companies are selling short sights solutions that could cost them more in the long run</font>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                <font>Leverage naak and the Internet of Energy (IoE) to build trust and address the very real challenges facing energy consumers today.</font>
+                                            </p>
+                                            <p>
+                                                <font>What do customers want from the solar company they select?&amp;nbsp;</font>
+                                            </p>
+                                            <p>
+                                                <font>A trusted advisor committed to the long term not a “One Call” sales pitch</font>
+                                            </p>
+                                            <p>
+                                                <font>A reliable and timely service provider should something not work</font>
+                                            </p>
+                                            <p>
+                                                <font>A customized solution that is ready for what the future will bring</font>
+                                            </p>
+                                            <p>
+                                                <font>To validate their energy production, consumption and energy bills</font>
+                                            </p>
+                                            <p>
+                                                <font>To be connected to everything, why not their energy</font>
+                                            </p>
+                                            <p>
+                                                <font>To control and maximize their energy investments</font>
+                                            </p>
+                                            <p>
+                                                <font>To participate in new opportunities to lower their bills and do their part&amp;nbsp;</font>
+                                            </p>
+                                            <p>
+                                                <font>To refer their friends and family to a partner they trust and a service they like</font>
+                                            </p>
+                                            <p>
+                                                <font>Stop playing the “lowest cost, race to the bottom” game. Sell value, resiligence, lifestyle, energy security, opportunity and the ability to CONTROL YOUR ENERGY FUTURE.</font>
+                                            </p> -->
+                                            <div class="s_btn pt16 pb16 text-center" data-name="Buttons">
+                                                <a href="#" class="btn btn-beta btn-lg btn-beta-pink">CHECK IT OUT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="s_call_to_action pt48 pb24 oe_img_bg oe_custom_bg bg-black-50" style="background-image: url(&quot;/naak_website/static/img/2.png&quot;);">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-9 pb24 pt4">
+                                            <h3>
+                                                <b>Go To The Next Level. Try naak!</b>
+                                                <br/>
+                                            </h3>
+                                            <p class="lead">Find out how your business can benefit from naak’s powerful toolsets.</p>
+                                        </div>
+                                        <div class="col-lg-3 s_btn text-right pt8 pb24">
+                                            <a href="/contactus" class="btn btn-beta btn-lg btn-beta-pink">
+                                                <span>Start Now</span>
+                                                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <record id="theme_naak_page" model="website.page">
+            <field name="url">/theme</field>
+            <field name="website_published">True</field>
+            <field name="view_id" ref="naak_home" />
+            <field name="is_homepage">True</field>
+        </record>
+    </data>
+</odoo>

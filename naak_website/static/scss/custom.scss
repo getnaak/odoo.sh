@@ -1,0 +1,203 @@
+  @font-face {
+    font-family: 'Gotham Light';
+    src: 
+       url('/naak_website/static/fonts/GothamLight.ttf')  format('truetype'); 
+        font-weight: 300;
+        font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'Gotham Medium';
+    src: 
+       url('/naak_website/static/fonts/GothamMedium.ttf')  format('truetype'); 
+     font-weight: 400;
+     font-style: normal;
+   }
+ 
+   body {
+    font-family: 'Arial';
+ }
+ 
+ // For normal
+ .normal {
+   font-weight: 400;
+ }
+ 
+ // For bold
+ .bold,
+ strong {
+   font-weight: 700;
+ }
+ 
+ // For thin
+ .light {
+   font-weight: 300;
+   font-family: 'Gotham Light';
+ }
+
+
+//  Gotham Light
+p{
+    margin-bottom: 0.3rem;
+    font-size: 13px;
+    font-family: 'Arial';
+    // font-style: normal;
+}
+h2{
+    font-family : 'Gotham Medium';
+    font-weight: 700;
+}
+.text-block{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+.image-left{
+    position: absolute;
+	top: 0;
+  left: 0;
+  // padding-left: 15rem;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0.8rem;
+    background: linear-gradient(to right, #875ba6 15%, #ef5182 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-radius: 0px 15px;
+    padding: 0.8rem;
+    background: linear-gradient(to right, #875ba6 5%, #EF5182 100%) !important;
+    -webkit-text-fill-color: white;
+}
+.font_spt{
+  font-size: 48px;
+}
+.btn-beta-purple{
+    background-color: #875BA6;
+    border-color: #875BA6;
+    border-radius: unset;
+    &:hover{
+      background-color: #875BA6;
+      border-color: #875BA6;
+      border-radius: unset;
+    }
+}
+.btn-beta-pink{
+  background-color: #EF5182;
+    border-color: #EF5182;
+    border-radius: unset;
+    &:hover{
+      background-color: #EF5182;
+      border-color: #EF5182;
+      border-radius: unset;
+    }
+}
+.dropdown-toggle::after{
+  color: rgba(255, 255, 255, 0.74);
+}
+.container_spt{
+  padding: unset !important;
+  margin: unset !important;
+}
+// .row_spt{
+//   margin-left: 0px !important;
+//   margin-right: 0px !important;
+// }
+.col_spt{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  border-bottom: 0;
+  z-index: 101;
+  }
+
+ .navbar-light{
+     background-color: transparent !important;
+ }
+
+
+ .navbar-brand.logo{
+     display: none;
+ }
+
+ .navbar ul.nav > li.divider{
+     display: none !important;
+ }
+
+ .navbar-light .navbar-nav .nav-link{
+       -webkit-text-fill-color: #fff9f92b;
+ }
+
+ @media  screen  and (min-width: 1800px) and (max-width: 1920px) {
+  .container {
+    max-width: 1825px;
+}
+}
+@media  screen  and (min-width: 1200px) and (max-width: 1440px) {
+  .row_spt{
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+}
+.container {
+    max-width: 1285px;
+}
+}
+@media  screen  and (min-width: 1441px) and (max-width: 1799px) {
+  .container {
+    max-width: 1825px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .container {
+    max-width: 993px;
+}
+}
+
+// @media (min-width: 1200px){
+//     .container {
+//       max-width: 1838px;
+//     }
+// }
+@media (max-width: 576px){
+  .font_spt{
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px){
+  .hight_spt{
+    height: auto !important;
+  }
+  h2, .h2 {
+    font-size: 1rem;
+}
+}
+// @media screen and (min-width: 1400px) {
+//   .container {
+//     width: 1370px;
+//   }
+// }
+// @media screen and (min-width: 1600px) {
+//   .container {
+//     width: 1570px;
+//   }
+// }
+// @media screen and (min-width: 1800px) {
+//   .container {
+//     width: 1770px;
+//   }
+// }
