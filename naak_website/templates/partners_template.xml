@@ -71,13 +71,13 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 offset-lg-1 pt0 pb0 col_spt">
-                                            <img src="/naak_website/static/img/1.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;height: fit-content;"/>
-                                            <img src="/naak_website/static/img/6.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;height: fit-content;"/>
+                                            <img src="/naak_website/static/img/1.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;"/>
+                                            <img src="/naak_website/static/img/6.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;"/>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-                            <section class="s_text_block pt0 oe_img_bg oe_custom_bg pb104" style="background-image: url(&quot;/naak_website/static/img/5.png&quot;);">
+                            <section class="s_text_block pt0 oe_img_bg oe_custom_bg" style="background-color: #ebebeb !important;">
                                 <div class="container">
                                     <div class="row s_nb_column_fixed">
                                         <div class="col-lg-11 offset-lg-1 s_title pb0 pt16" style="text-align: left;">
@@ -85,8 +85,8 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="pt32 pb32 col-lg-3 offset-lg-1">
-                                            <ul>
+                                        <div class="pt32 pb32 col-lg-4">
+                                            <ul style="text-align: justify;">
                                                 <li>
                                                     <span>Plug every system you design and build into the Internet of Energy</span>
                                                 </li>
@@ -116,8 +116,8 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="pt32 pb32 col-lg-3 offset-lg-1">
-                                            <ul>
+                                        <div class="pt32 pb32 col-lg-4">
+                                            <ul style="text-align: justify;">
                                                 <li>
                                                     <span>All the data you need to size and sell storage - solar production, consumption &amp;amp; solar export&amp;nbsp;</span>
                                                 </li>
@@ -146,6 +146,9 @@
                                                     <span>Lower the barrier of entry for future customers -&amp;nbsp; sell energy management &amp;amp; home automation</span>
                                                 </li>
                                             </ul>
+                                        </div>
+                                        <div class="col-lg-4 pt0 pb0" style="align-self: flex-end;">
+                                            <img src="/naak_website/static/img/16.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;"/>
                                         </div>
                                     </div>
                                 </div>
