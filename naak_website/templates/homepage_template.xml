@@ -50,7 +50,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-5 offset-lg-1 pt16 pb0">
-                                            <img src="/naak_website/static/img/8.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image"/>
+                                            <img src="/naak_website/static/img/8.png" class="img img-fluid mx-auto hight_spt" alt="Odoo • Text and Image" style="width: -webkit-fill-available;"/>
                                         </div>
                                     </div>
                                 </div>

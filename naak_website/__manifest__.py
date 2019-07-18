@@ -3,7 +3,7 @@
     'name': 'Theme Naak',
     'description': '''''',
     'summary': 'Responsive business theme',
-    'category': 'Website',
+    'category': 'Theme',
     'sequence': 1,
     'version': '12.0.1.0.0',
     'author': 'SnepTech',

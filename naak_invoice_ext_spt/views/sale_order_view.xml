@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<odoo>
+   <data>
+      <record id="sale_order_form_view_inherit_spt" model="ir.ui.view">
+         <field name="name">sale.order.form.view.inherit.spt</field>
+         <field name="model">sale.order</field>
+         <field name="inherit_id" ref="sale.view_order_form"/>
+         <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_cancel']" position="after">
+               <field name='payment_request_done' invisible='1' />
+               <button name="raise_purchase_order" class="oe_highlight" type="object" string="Create Purchase" attrs="{'invisible': ['|',('state', '!=', 'sale'),('payment_request_done', '=',True)]}"/>
+
+            </xpath>
+         </field>
+      </record>
+   </data>
+</odoo>
